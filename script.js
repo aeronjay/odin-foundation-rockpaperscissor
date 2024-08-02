@@ -19,7 +19,7 @@ function playGame(){
         console.log(`Round ${round}:`)
         
         let computer = computerChoice();
-        let human = humanChoice();
+        let human = humanChoice(round);
         let outcome = playRound(human,computer);
         if(outcome === 1){
             ++humanScore;
@@ -39,11 +39,11 @@ let computerChoice = () => {
     return rng;
 };
 
-let humanChoice = () => {
+let humanChoice = (round) => {
     let humanPrompt = null;
     let humanChoice = null;
     do{
-        humanPrompt = prompt("ROCK PAPER SCISSOR ROUND: N/A \n\n What Is Your Choice Human?").toLowerCase();
+        humanPrompt = prompt(`ROCK PAPER SCISSOR ROUND: ${round} \n\n What Is Your Choice Human?`).toLowerCase();
     }while(humanPrompt === "" || !(choices.includes(humanPrompt)));
     
     switch(humanPrompt){
