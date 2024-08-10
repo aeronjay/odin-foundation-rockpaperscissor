@@ -4,7 +4,7 @@ My own submission of the Project: Rock Paper Scissor by TheOdinProject
 I finished this on 8/11/2024
 
 
-This is my Live website : https://aeronjay.github.io/odin-foundation-rockpaperscissor/
+This is my Live website : <a href="https://aeronjay.github.io/odin-foundation-rockpaperscissor/">Live Demo</a>
 
 
 
