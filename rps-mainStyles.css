@@ -65,3 +65,10 @@ button.button{
     height: 150px;
     margin: auto;
 }
+.life{
+    color: rgb(255, 0, 230);
+}
+.endText{
+    text-align: center;
+    margin-top: 25px;
+}
